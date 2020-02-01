@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerSprite : MonoBehaviour
 {
     SpriteRenderer SpriteRenderer;
+    PlayerSpriteAnimation animator;
 
     public Sprite Happy;
     public Sprite Unhappy;
@@ -14,14 +15,9 @@ public class PlayerSprite : MonoBehaviour
     void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<PlayerSpriteAnimation>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     void SetSprite(Sprite s)
     {
         SpriteRenderer.sprite = s;
@@ -30,11 +26,13 @@ public class PlayerSprite : MonoBehaviour
     public void OnGiveHealth()
     {
         //SpriteRenderer.sprite = Unhappy;
+        animator.Angry();
     }
 
     public void OnKeepHealth()
     {
         //SpriteRenderer.sprite = Happy;
+        animator.Jump();
     }
 
     public void HoverKeepEnter()

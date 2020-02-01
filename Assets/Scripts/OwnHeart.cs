@@ -20,7 +20,7 @@ public class OwnHeart : MonoBehaviour
 
     public void OnGiveHealth()
     {
-    
+        Heartbeat.Bleed();
     }
 
     public void OnKeepHealth()
