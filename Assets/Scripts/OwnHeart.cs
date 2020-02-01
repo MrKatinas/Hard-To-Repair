@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class OwnHeart : MonoBehaviour
 {
+    Heartbeat Heartbeat;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        Heartbeat = GetComponent<Heartbeat>();
     }
 
     // Update is called once per frame
@@ -23,6 +25,6 @@ public class OwnHeart : MonoBehaviour
 
     public void OnKeepHealth()
     {
-
+        Heartbeat.Beat();
     }
 }
