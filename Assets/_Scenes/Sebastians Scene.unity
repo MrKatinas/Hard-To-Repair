@@ -442,8 +442,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806771887}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.45, y: 1.05, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2393297}
   m_RootOrder: 0
@@ -487,8 +487,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 6c6f7da78e6e67c46a891ab2e1c6710e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -544,7 +544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -11.6}
+  m_AnchoredPosition: {x: 0, y: -11.599998}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029860945
@@ -796,7 +796,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977525906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6, y: -0.54, z: 0}
+  m_LocalPosition: {x: -3.18, y: -1.18, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 2393297}
@@ -841,12 +841,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9506738d664b92247a587373f870edbf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a05d095b45d550b4682bcc6d11aabf18, type: 3}
+  m_Color: {r: 0.7264151, g: 0.51739943, b: 0.51739943, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 11.81, y: 9.45}
+  m_Size: {x: 1.98, y: 1.7}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -864,9 +864,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 783a33a259850d441bdf272629ce5c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Happy: {fileID: 21300000, guid: 9506738d664b92247a587373f870edbf, type: 3}
-  Unhappy: {fileID: 21300000, guid: b04581b2c7c73434799c63a662c8d663, type: 3}
-  Idle: {fileID: 21300000, guid: 4bf8694b04e64ca46937977e29c1a328, type: 3}
+  Happy: {fileID: 21300000, guid: ac2b091522f07f1498ef1553fb504249, type: 3}
+  Unhappy: {fileID: 21300000, guid: 5b40461f9eefc83429d2b1c90345b5d6, type: 3}
+  Idle: {fileID: 21300000, guid: a05d095b45d550b4682bcc6d11aabf18, type: 3}
 --- !u!1 &2125452660
 GameObject:
   m_ObjectHideFlags: 0
