@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class StartButton : MonoBehaviour
 {
     public Text playerCount;
-    public Text RoundCount;
     public Game manager;
 
     public GameObject introScreen;
@@ -25,14 +24,15 @@ public class StartButton : MonoBehaviour
 
     public void DoTheThing()
     {
-        if (string.IsNullOrWhiteSpace(playerCount.text) || string.IsNullOrWhiteSpace(RoundCount.text))
+        if (string.IsNullOrWhiteSpace(playerCount.text))
         {
             return;
         }
 
-        if (int.TryParse(playerCount.text, out var i) && int.TryParse(RoundCount.text, out var j))
+        if (int.TryParse(playerCount.text, out var i))
         {
-            manager.launch(i, j);
+            if (i < 2) { return; }
+            manager.launch(i, 5);
             introScreen.SetActive(false);
             return;
         }
