@@ -14,7 +14,7 @@ public class PlayerSpriteAnimation : MonoBehaviour
     public float RotationIntensity = 30.0f;
 
     SpriteRenderer renderer;
-
+    public ParticleSystem particleSystem;
     
     // Start is called before the first frame update
     void Start()
@@ -77,6 +77,7 @@ public class PlayerSpriteAnimation : MonoBehaviour
         angry = true;
         jumping = false;
         alpha = 0.0f;
+        particleSystem.Play(false);
     }
 
     public bool IsAnimating()

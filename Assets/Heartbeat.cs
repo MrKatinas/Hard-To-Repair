@@ -15,6 +15,7 @@ public class Heartbeat : MonoBehaviour
     public float BeatintensityY = 0.04f;
 
     SpriteRenderer renderer;
+    public ParticleSystem particleSystem;
 
     private void Start()
     {
@@ -65,6 +66,7 @@ public class Heartbeat : MonoBehaviour
         beating = true;
         bleeding = false;
         alpha = 0.0f;
+        particleSystem.Play();
     }
 
     public void Bleed()
