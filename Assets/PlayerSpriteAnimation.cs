@@ -78,4 +78,9 @@ public class PlayerSpriteAnimation : MonoBehaviour
         jumping = false;
         alpha = 0.0f;
     }
+
+    public bool IsAnimating()
+    {
+        return jumping || angry;
+    }
 }
