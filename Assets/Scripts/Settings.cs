@@ -23,4 +23,7 @@ public class Settings : ScriptableObject
     }
 
     #endregion
+
+    public string GameSceneName;
+
 }

@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/Main Menu.unity
+    guid: c433555bdee321943af52b30c7a1d122
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu.unity
+    guid: b74d66ef801bf1d4a8bd8d5fb1a37514
+  - enabled: 1
+    path: Assets/_Scenes/Sebastians Scene.unity
+    guid: c664280abae525e4399e4b2254cf3763
   m_configObjects: {}

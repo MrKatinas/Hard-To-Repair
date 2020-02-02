@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09069692e3a663447b3a4fad2d05c0e2, type: 3}
   m_Name: Settings
   m_EditorClassIdentifier: 
+  GameSceneName: Sebastians Scene
